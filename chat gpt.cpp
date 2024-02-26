@@ -26,7 +26,7 @@ public:
         cout << "Enter roll no.: ";
         getline(cin, rollNo);
 
-        cout << "Enter semester no.: ";
+        cout << "Enter semester number.: ";
         cin >> semesterNo;
 
         cin.ignore();  // Consume the newline character left in the buffer
