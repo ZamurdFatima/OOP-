@@ -8,13 +8,13 @@ class TempConverter{
 			farenheit = farenheit;
 		celcius=	(farenheit-32)*5/9;
 //		cout<<"Temperature in Celcius is: "<<celcius;
-		return farenheit;
+		return celcius;
 		}
 		double ctf(double celcius){
 			celcius = celcius;
 		farenheit=	(celcius*9/5)+32;
 //		cout<<"Temperature in Fareheit is: "<<farenheit;
-		return celcius;
+		return farenheit;
 		}
 };
 int main(){
